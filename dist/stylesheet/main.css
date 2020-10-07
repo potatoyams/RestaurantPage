@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2.2vh;
+    width: 40%;
+}
+
+.burger-menu {
+    display:none;
+    cursor: pointer;
+}
+
+.item1, .item2, .item3 {
+    width: 30px;
+    height: 5px;
+    margin: 5px;
+    background-color:black;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .burger-menu {
+        display: block;
+    }
+}
